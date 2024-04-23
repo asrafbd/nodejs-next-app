@@ -7,13 +7,15 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 const images = [
-    '/1.png',
-    '/1.png',
+    '/image1.jpg',
+    '/image2.jpg',
+    '/image3.jpg',
 ]
 
 export default function Home() {
   return (
-    <main>
+    <main className="p-12">
+     
       <Swiper
         pagination={{
           dynamicBullets: true,
