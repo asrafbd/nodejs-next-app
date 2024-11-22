@@ -1,4 +1,4 @@
-FROM node:18.19.0
+FROM node:18.20-alpine
 WORKDIR /usr/scr/app
 COPY package*.json ./
 RUN npm install
